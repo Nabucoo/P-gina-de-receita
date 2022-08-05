@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #EAEAEA;
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+    width: 60vw;
+    height: 500px;
+}
+
+h1, h2{
+    display: flex;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ingredientes, .preparo{
+    list-style-type: none;
+}
+
+.ingredientes, .preparo ol, ul li{
+    margin-bottom: 10px;
+}
+
+.ingredientes, .preparo ol, ul{
+    margin-bottom: 20px;
+}
+
+h3 {
+    display: flex;
+    width: 100vw - 200px;
+    background-color: #EAEAEA;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
